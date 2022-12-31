@@ -1,56 +1,62 @@
 const Portfolio = () => {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <h1>
-              <a href="index.html">
-                <span className="fa-solid fa-code"></span>
-                <span>Marek Vcelak</span>
+      <div className="main-page">
+        <nav>
+          <ul>
+            <li>
+              <h1>
+                <a href="index.html">
+                  <span className="fa-solid fa-code"></span>
+                  <span>Marek Vcelak</span>
+                </a>
+              </h1>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com">
+                <span
+                  className="fa-brands fa-linkedin"
+                  aria-hidden="true"
+                ></span>
+                <span className="sr-only">LinkedIn</span>
               </a>
-            </h1>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com">
-              <span className="fa-brands fa-linkedin" aria-hidden="true"></span>
-              <span className="sr-only">LinkedIn</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.github.com">
-              <span
-                className="fa-brands fa-github-square"
-                aria-hidden="true"
-              ></span>
-              <span className="sr-only">Github</span>
-            </a>
-          </li>
-          <li>
-            <a href="resumelink" className="button">
-              Resume
-            </a>
-          </li>
-        </ul>
-      </nav>
+            </li>
+            <li>
+              <a href="https://github.com/VcelakMarek">
+                <span
+                  className="fa-brands fa-github-square"
+                  aria-hidden="true"
+                ></span>
+                <span className="sr-only">Github</span>
+              </a>
+            </li>
+            <li>
+              <a href="resumelink" className="button">
+                Resume
+              </a>
+            </li>
+          </ul>
+        </nav>
 
-      <section id="intro">
-        <p className="name">
-          Hi, my name is <span>Marek Vcelak.</span>
-        </p>
-        <h2>I develop the front end of websites.</h2>
-        <p>I'm a developer specializing in HTML, CSS and JS.</p>
-        <p>Currently, I'm working at Inventec as IT technician.</p>
-      </section>
+        <section id="intro">
+          <p className="name">
+            Hi, my name is <span>Marek Vcelak</span>
+          </p>
+          <h2>React Developer</h2>
+          <p>
+            I am junior frontend developer specializing on React aplications
+          </p>
+        </section>
+      </div>
 
       <div className="gradient"></div>
 
@@ -60,18 +66,15 @@ const Portfolio = () => {
           <article>
             <div className="text">
               <h4>Latest Project</h4>
-              <h3>Wall of Wonder</h3>
+              <h3>IP Address Tracker</h3>
               <p className="blackbox">
-                Description of the project. This should be fairly concise while
-                also describing the key components that you developed or worked
-                on. It can be as long as you need it to be but should at least
-                be a few sentences long. Be sure to include specific links
-                anywhere in the description. A link looks like
-                <a href="https://frontendmasters.github.io/grid-flexbox-v2/">
-                  this
-                </a>
-                , and multiple links look <a href="#">like this</a> and
-                <a href="#">like this</a>.
+                I choose this project because I dont use any Map API yet. I want
+                to learn how to use that. You can see source code{" "}
+                <a href="https://github.com/VcelakMarek/IP_Address_Tracker">
+                  here
+                </a>{" "}
+                and aplication{" "}
+                <a href="vcelakmarek.github.io/IP_Address_Tracker/"> here.</a>
               </p>
               <h4>Technologies used include:</h4>
               <ul>
@@ -88,25 +91,27 @@ const Portfolio = () => {
 
           <article className="reverse">
             <div className="text">
-              <h4>Bootcamp Project</h4>
-              <h3>Feed-A-Star-Mole Game</h3>
+              <h4>Data fetch project</h4>
+              <h3>GitHub user search app</h3>
               <p className="blackbox">
-                Description of the project. This should be fairly concise while
-                also describing the key components that you developed or worked
-                on. It can be as long as you need it to be but should at least
-                be a few sentences long. Be sure to include specific links
-                anywherein the description. A link looks like
-                <a href="https://frontendmasters.github.io/bootcamp/mole">
-                  this
+                This was my first project witch API. I choose this because I
+                want to learn basics of async function and data fetching. This
+                project also includes light/dark mode switch. You can see source
+                code{" "}
+                <a href="https://github.com/VcelakMarek/GitHub_user_search_app">
+                  here
+                </a>{" "}
+                and aplication{" "}
+                <a href="vcelakmarek.github.io/GitHub_user_search_app/">
+                  {" "}
+                  here.
                 </a>
-                , and multiple links look <a href="#">like this</a> and
-                <a href="#">like this</a>.
               </p>
               <h4>Technologies used include:</h4>
               <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
+                <li>React js</li>
+                <li>NPM</li>
+                <li>API</li>
               </ul>
             </div>
             <img
@@ -117,35 +122,29 @@ const Portfolio = () => {
 
           <article>
             <div className="text">
-              <h4>Photography Project</h4>
-              <h3>Wall of Wonder Collection</h3>
+              <h4>First React project</h4>
+              <h3>Tic Tac Toe</h3>
               <p className="blackbox">
-                Description of the project. This should be fairly concise while
-                also describing the key components that you developed or worked
-                on. It can be as long as you need it to be but should at least
-                be a few sentences long. Be sure to include specific links
-                anywhere in the description. A link looks like
-                <a href="https://frontendmasters.github.io/grid-flexbox-v2/grid-figure-figcaption">
-                  this
-                </a>
-                , and multiple links look <a href="#">like this</a> and
-                <a href="#">like this</a>
+                This was my first React project. You can see source code{" "}
+                <a href="https://github.com/VcelakMarek/Tic_Tac_Toe">here</a>{" "}
+                and aplication{" "}
+                <a href="vcelakmarek.github.io/Tic_Tac_Toe/"> here.</a>
               </p>
               <h4>Technologies used include:</h4>
               <ul>
-                <li>HTML</li>
+                <li>React js</li>
                 <li>CSS</li>
-                <li>Grid</li>
+                <li>NPM</li>
               </ul>
             </div>
             <img
-              src="img/Wall of Wonder Collection.png"
-              alt="Screenshot of the Wall of Wonder Collections."
+              src="./assets/tic-tac-toe.jpg"
+              alt="Screenshot Tic_Tac_Toe project."
             />
           </article>
         </section>
       </div>
-
+      {/* 
       <div className="gradient"></div>
 
       <div className="contact-background">
@@ -157,7 +156,7 @@ const Portfolio = () => {
           </p>
           <a href="mailto:mail@example.com">Email me</a>
         </section>
-      </div>
+      </div> */}
 
       <div className="gradient"></div>
 
@@ -171,7 +170,7 @@ const Portfolio = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.github.com">
+            <a href="https://github.com/VcelakMarek">
               <span
                 className="fa-brands fa-github-square"
                 aria-hidden="true"
