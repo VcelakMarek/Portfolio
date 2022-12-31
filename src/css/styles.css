@@ -1,9 +1,9 @@
 :root {
-  --black: #171321;
+  --black: #16152a;
   --dkblue: #0d314b;
-  --plum: #4b0d49;
-  --hotmag: #ff17e4;
-  --magenta: #e310cb;
+  --plum: #3a0938;
+  --hover-green: #60ffd7;
+  --green: #00ffbb;
   --aqua: #86fbfb;
   --white: #f7f8fa;
   --font-size: 1.3rem;
@@ -32,14 +32,17 @@ h3 {
   margin: 0;
 }
 a {
-  color: var(--magenta);
+  color: var(--green);
 }
 a:hover {
-  color: var(--hotmag);
+  color: var(--hover-green);
   text-decoration: none;
 }
 img {
   width: 100%;
+}
+.main-page {
+  height: 100vh;
 }
 /* navbar styles */
 nav {
@@ -61,9 +64,9 @@ nav ul {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  padding-top: 30px;
+  padding-top: 10px;
 
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 nav li:first-child {
@@ -76,7 +79,7 @@ nav h1 [class*="fa-"] {
 }
 nav [class*="fa-"] {
   font-size: 150%;
-  color: var(--aqua);
+  color: var(--green);
 }
 nav a {
   color: var(--white);
@@ -86,27 +89,27 @@ nav a {
   gap: 10px;
 }
 nav a:hover {
-  color: var(--magenta);
+  color: var(--green);
 }
 nav a span:hover {
-  color: var(--magenta);
+  color: var(--green);
 }
 h1 {
   margin-top: 3px;
 }
 .button {
   border-radius: 5px;
-  background-color: var(--magenta);
+  background-color: var(--green);
+  color: var(--black);
 }
 nav .button:hover {
-  color: white;
-  background-color: var(--hotmag);
+  color: var(--black);
+  background-color: var(--hover-green);
 }
 /* intro styles */
 #intro {
-  padding: 4rem 1rem 10rem 1rem; /* top right bottom left*/
-  max-width: 1200px;
-  height: 100vh;
+  padding: 7rem 1rem; /* top right bottom left*/
+  max-width: 1100px;
   margin: 0 auto;
 }
 #intro p {
@@ -119,17 +122,20 @@ nav .button:hover {
 .name span {
   font-family: var(--sans);
   font-size: 4rem;
-  color: var(--aqua);
+  font-weight: 600;
+  color: var(--white);
   display: block;
 }
 #intro h2 {
-  font-size: 4rem;
-  font-weight: normal;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--green);
+  text-transform: uppercase;
 }
 /*projects stypes*/
 #projects {
   padding: 4rem 1rem;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 #projects h2 {
@@ -182,11 +188,7 @@ nav .button:hover {
   background-color: var(--dkblue);
 }
 .gradient {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 23, 228, 1) 25%,
-    rgba(134, 251, 251, 1) 75%
-  );
+  background: linear-gradient(90deg, #00ffbb 25%, rgba(134, 251, 251, 1) 75%);
   height: 2px;
 }
 #contact p {
@@ -195,15 +197,15 @@ nav .button:hover {
   padding-bottom: 30px;
 }
 #contact a {
-  color: var(--white);
+  color: var(--black);
   font-family: var(--mono);
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
-  background-color: var(--magenta);
+  background-color: var(--green);
 }
 #contact a:hover {
-  background-color: var(--hotmag);
+  background-color: var(--hover-green);
 }
 /* footer styles */
 footer {
@@ -261,7 +263,7 @@ footer p {
 
 @media (min-width: 850px) {
   nav {
-    max-width: 12000px;
+    max-width: 1200px;
     margin: 0 auto;
   }
   nav li:first-child {
