@@ -78,14 +78,14 @@ const Portfolio = () => {
               </p>
               <h4>Technologies used include:</h4>
               <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SVG</li>
+                <li>React js</li>
+                <li>NPM</li>
+                <li>API</li>
               </ul>
             </div>
             <img
-              src="img/wall of wonder.png"
-              alt="Screenshot of the Wall of Wonder."
+              src="assets/IP-Address-Tracker.jpg"
+              alt="Screenshot of IP_Address_Tracker."
             />
           </article>
 
@@ -115,8 +115,8 @@ const Portfolio = () => {
               </ul>
             </div>
             <img
-              src="img/Feed-A-Star-Mole Game.png"
-              alt="Screenshot of the Frontend Masters Bootcamp."
+              src="assets/github-user-search-app.jpg"
+              alt="Screenshot of the GitHub_user_search_app."
             />
           </article>
 
