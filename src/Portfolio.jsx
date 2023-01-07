@@ -74,7 +74,10 @@ const Portfolio = () => {
                   here
                 </a>{" "}
                 and aplication{" "}
-                <a href="vcelakmarek.github.io/IP_Address_Tracker/"> here.</a>
+                <a href="https://vcelakmarek.github.io/IP_Address_Tracker/">
+                  {" "}
+                  here.
+                </a>
               </p>
               <h4>Technologies used include:</h4>
               <ul>
@@ -102,7 +105,7 @@ const Portfolio = () => {
                   here
                 </a>{" "}
                 and aplication{" "}
-                <a href="vcelakmarek.github.io/GitHub_user_search_app/">
+                <a href="https://vcelakmarek.github.io/GitHub_user_search_app/">
                   {" "}
                   here.
                 </a>
@@ -128,7 +131,7 @@ const Portfolio = () => {
                 This was my first React project. You can see source code{" "}
                 <a href="https://github.com/VcelakMarek/Tic_Tac_Toe">here</a>{" "}
                 and aplication{" "}
-                <a href="vcelakmarek.github.io/Tic_Tac_Toe/"> here.</a>
+                <a href="https://vcelakmarek.github.io/Tic_Tac_Toe/"> here.</a>
               </p>
               <h4>Technologies used include:</h4>
               <ul>
