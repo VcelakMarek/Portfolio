@@ -144,19 +144,16 @@ const Portfolio = () => {
           </article>
         </section>
       </div>
-      {/* 
+
       <div className="gradient"></div>
 
       <div className="contact-background">
         <section id="contact">
           <h2>Contact me</h2>
-          <p>
-            I'm always interested in hearing about new teaching opportunities,
-            writing curricula, or instructional design work.
-          </p>
+          <p>I am interested about new job opportunities.</p>
           <a href="mailto:mail@example.com">Email me</a>
         </section>
-      </div> */}
+      </div>
 
       <div className="gradient"></div>
 
