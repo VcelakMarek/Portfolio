@@ -82,7 +82,7 @@ const Portfolio = () => {
               <h4>Technologies used include:</h4>
               <ul>
                 <li>React js</li>
-                <li>NPM</li>
+                <li>SASS</li>
                 <li>API</li>
               </ul>
             </div>
