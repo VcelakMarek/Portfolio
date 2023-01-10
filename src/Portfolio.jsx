@@ -84,6 +84,8 @@ const Portfolio = () => {
                 <li>React js</li>
                 <li>SASS</li>
                 <li>API</li>
+                <li>Vite</li>
+                <li>Prettier</li>
               </ul>
             </div>
             <img
@@ -113,8 +115,9 @@ const Portfolio = () => {
               <h4>Technologies used include:</h4>
               <ul>
                 <li>React js</li>
-                <li>NPM</li>
                 <li>API</li>
+                <li>Vite</li>
+                <li>Prettier</li>
               </ul>
             </div>
             <img
@@ -137,7 +140,8 @@ const Portfolio = () => {
               <ul>
                 <li>React js</li>
                 <li>CSS</li>
-                <li>NPM</li>
+                <li>Vite</li>
+                <li>Prettier</li>
               </ul>
             </div>
             <img
