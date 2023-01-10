@@ -1,14 +1,14 @@
 :root {
   --black: #16152a;
   --dkblue: #0d314b;
-  --plum: #3a0938;
+  --plum: #0b062b;
   --hover-green: #60ffd7;
   --green: #00ffbb;
   --aqua: #86fbfb;
   --white: #f7f8fa;
   --font-size: 1.3rem;
   --mono: "Oxygen mono", monospace;
-  --sans: Oxygen, sans-serif;
+  --sans: "Oxygen", sans-serif;
 }
 html {
   box-sizing: border-box;
@@ -81,6 +81,9 @@ nav [class*="fa-"] {
   font-size: 150%;
   color: var(--green);
 }
+nav [class*="fa-"]:hover {
+  color: var(--hover-green);
+}
 nav a {
   color: var(--white);
   text-decoration: none;
@@ -108,7 +111,7 @@ nav .button:hover {
 }
 /* intro styles */
 #intro {
-  padding: 7rem 1rem; /* top right bottom left*/
+  padding: 7rem 1rem;
   max-width: 1100px;
   margin: 0 auto;
 }
