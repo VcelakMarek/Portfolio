@@ -40,7 +40,7 @@ const Portfolio = () => {
               </a>
             </li>
             <li>
-              <a href="./assets/Resume.pdf" className="button">
+              <a href="./Resume.pdf" className="button">
                 Resume
               </a>
             </li>
@@ -92,7 +92,7 @@ const Portfolio = () => {
               </ul>
             </div>
             <img
-              src="assets/IP-Address-Tracker.jpg"
+              src="./IP-Address-Tracker.jpg"
               alt="Screenshot of IP_Address_Tracker."
             />
           </article>
@@ -124,7 +124,7 @@ const Portfolio = () => {
               </ul>
             </div>
             <img
-              src="assets/github-user-search-app.jpg"
+              src="./github-user-search-app.jpg"
               alt="Screenshot of the GitHub_user_search_app."
             />
           </article>
@@ -151,7 +151,7 @@ const Portfolio = () => {
               </ul>
             </div>
             <img
-              src="./assets/tic-tac-toe.jpg"
+              src="./tic-tac-toe.jpg"
               alt="Screenshot Tic_Tac_Toe project."
             />
           </article>
@@ -187,7 +187,7 @@ const Portfolio = () => {
               </ul>
             </div>
             <img
-              src="assets/password-generator.jpg"
+              src="./password-generator.jpg"
               alt="Screenshot of Password_generator."
             />
           </article>
@@ -209,10 +209,7 @@ const Portfolio = () => {
                 <li>JS</li>
               </ul>
             </div>
-            <img
-              src="assets/Calculator.jpg"
-              alt="Screenshot of the Calculator."
-            />
+            <img src="./Calculator.jpg" alt="Screenshot of the Calculator." />
           </article>
 
           <article>
@@ -236,7 +233,7 @@ const Portfolio = () => {
               </ul>
             </div>
             <img
-              src="./assets/pricing-component.jpg"
+              src="./pricing-component.jpg"
               alt="Screenshot pricing_component."
             />
           </article>
