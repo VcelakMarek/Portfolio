@@ -40,7 +40,7 @@ const Portfolio = () => {
               </a>
             </li>
             <li>
-              <a href="resumelink" className="button">
+              <a href="./assets/Resume.pdf" className="button">
                 Resume
               </a>
             </li>
@@ -68,11 +68,10 @@ const Portfolio = () => {
               <h4>Latest Project</h4>
               <h3>IP Address Tracker</h3>
               <p className="blackbox">
-                I choose this project because I want to learn how to use map
-                API. Also I include Sass into this project. This application
-                displays informations about entered IP adress and show location
-                on map. After opening this application it will be displayed
-                informatins about your IP address. You can see source code{" "}
+                This application displays informations about entered IP adress
+                and show location on map. After opening this application it will
+                be displayed informatins about your IP address. You can see
+                source code{" "}
                 <a href="https://github.com/VcelakMarek/IP_Address_Tracker">
                   here
                 </a>{" "}
@@ -103,10 +102,10 @@ const Portfolio = () => {
               <h4>Data fetch project</h4>
               <h3>GitHub user search app</h3>
               <p className="blackbox">
-                This was my first project witch API. I choose this because I
-                want to learn basics of async function and data fetching. This
-                project also includes light/dark mode switch. You can see source
-                code{" "}
+                This aplication display details about any user on GitHub. I
+                choose this because I want to learn basics of async function and
+                data fetching. This project also includes light/dark mode
+                switch. You can see source code{" "}
                 <a href="https://github.com/VcelakMarek/GitHub_user_search_app">
                   here
                 </a>{" "}
@@ -169,7 +168,8 @@ const Portfolio = () => {
               <h4>Another JS project</h4>
               <h3>Password generator</h3>
               <p className="blackbox">
-                You can see source code{" "}
+                This application create a password according to the selected
+                options and length. You can see source code{" "}
                 <a href="https://github.com/VcelakMarek/Password_generator">
                   here
                 </a>{" "}
@@ -197,7 +197,7 @@ const Portfolio = () => {
               <h4>First JS project</h4>
               <h3>Calculator</h3>
               <p className="blackbox">
-                This was my first JS project.{" "}
+                This is just normal Calculator. You can see source code{" "}
                 <a href="https://github.com/VcelakMarek/Calculator">here</a> and
                 aplication{" "}
                 <a href="https://vcelakmarek.github.io/Calculator//"> here.</a>
@@ -220,7 +220,7 @@ const Portfolio = () => {
               <h4>First CSS project</h4>
               <h3>Pricing component</h3>
               <p className="blackbox">
-                This was my first CSS project.{" "}
+                This was my first CSS project. You can see source code{" "}
                 <a href="https://github.com/VcelakMarek/First_Project">here</a>{" "}
                 and aplication{" "}
                 <a href="https://vcelakmarek.github.io/First_Project/">
