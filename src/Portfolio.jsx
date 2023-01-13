@@ -209,7 +209,7 @@ const Portfolio = () => {
                 <li>JS</li>
               </ul>
             </div>
-            <img src="./Calculator.jpg" alt="Screenshot of the Calculator." />
+            <img src="./calculator.jpg" alt="Screenshot of the Calculator." />
           </article>
 
           <article>
