@@ -22,7 +22,7 @@ const Portfolio = () => {
               <a href="#contact">Contact</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com">
+              <a href="https://cz.linkedin.com/in/marek-v%C4%8Del%C3%A1k-6176bb1b0">
                 <span
                   className="fa-brands fa-linkedin"
                   aria-hidden="true"
@@ -62,14 +62,17 @@ const Portfolio = () => {
 
       <div className="projects-background">
         <section id="projects">
-          <h2>Projects I'm proud of</h2>
+          <h2>Main projects</h2>
           <article>
             <div className="text">
               <h4>Latest Project</h4>
               <h3>IP Address Tracker</h3>
               <p className="blackbox">
-                I choose this project because I dont use any Map API yet. I want
-                to learn how to use that. You can see source code{" "}
+                I choose this project because I want to learn how to use map
+                API. Also I include Sass into this project. This application
+                displays informations about entered IP adress and show location
+                on map. After opening this application it will be displayed
+                informatins about your IP address. You can see source code{" "}
                 <a href="https://github.com/VcelakMarek/IP_Address_Tracker">
                   here
                 </a>{" "}
@@ -83,7 +86,8 @@ const Portfolio = () => {
               <ul>
                 <li>React js</li>
                 <li>SASS</li>
-                <li>API</li>
+                <li>Ipifi API</li>
+                <li>Leaflet maps</li>
                 <li>Vite</li>
                 <li>Prettier</li>
               </ul>
@@ -131,7 +135,10 @@ const Portfolio = () => {
               <h4>First React project</h4>
               <h3>Tic Tac Toe</h3>
               <p className="blackbox">
-                This was my first React project. You can see source code{" "}
+                This was my first React project and also my most complex project
+                yet. You can choose mark and play with another player or play
+                agains CPU. Aplication counts each player wins. You can see
+                source code{" "}
                 <a href="https://github.com/VcelakMarek/Tic_Tac_Toe">here</a>{" "}
                 and aplication{" "}
                 <a href="https://vcelakmarek.github.io/Tic_Tac_Toe/"> here.</a>
@@ -154,11 +161,95 @@ const Portfolio = () => {
 
       <div className="gradient"></div>
 
+      <div className="other-projects-background">
+        <section id="projects">
+          <h2>Other projects</h2>
+          <article>
+            <div className="text">
+              <h4>Another JS project</h4>
+              <h3>Password generator</h3>
+              <p className="blackbox">
+                You can see source code{" "}
+                <a href="https://github.com/VcelakMarek/Password_generator">
+                  here
+                </a>{" "}
+                and aplication{" "}
+                <a href="https://vcelakmarek.github.io/Password_generator/">
+                  {" "}
+                  here.
+                </a>
+              </p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+              </ul>
+            </div>
+            <img
+              src="assets/password-generator.jpg"
+              alt="Screenshot of Password_generator."
+            />
+          </article>
+
+          <article className="reverse">
+            <div className="text">
+              <h4>First JS project</h4>
+              <h3>Calculator</h3>
+              <p className="blackbox">
+                This was my first JS project.{" "}
+                <a href="https://github.com/VcelakMarek/Calculator">here</a> and
+                aplication{" "}
+                <a href="https://vcelakmarek.github.io/Calculator//"> here.</a>
+              </p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+              </ul>
+            </div>
+            <img
+              src="assets/Calculator.jpg"
+              alt="Screenshot of the Calculator."
+            />
+          </article>
+
+          <article>
+            <div className="text">
+              <h4>First CSS project</h4>
+              <h3>Pricing component</h3>
+              <p className="blackbox">
+                This was my first CSS project.{" "}
+                <a href="https://github.com/VcelakMarek/First_Project">here</a>{" "}
+                and aplication{" "}
+                <a href="https://vcelakmarek.github.io/First_Project/">
+                  {" "}
+                  here.
+                </a>
+              </p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+              </ul>
+            </div>
+            <img
+              src="./assets/pricing-component.jpg"
+              alt="Screenshot pricing_component."
+            />
+          </article>
+        </section>
+      </div>
+
+      <div className="gradient"></div>
+
       <div className="contact-background">
         <section id="contact">
           <h2>Contact me</h2>
           <p>I am interested about new job opportunities.</p>
-          <a href="mailto:mail@example.com">Email me</a>
+          <a href="mailto:vcelak.marek@gmail.com">Email me</a>
         </section>
       </div>
 
@@ -168,7 +259,7 @@ const Portfolio = () => {
         <h2>Marek Vcelak &middot; Developer</h2>
         <ul>
           <li>
-            <a href="https://linkedin.com">
+            <a href="https://cz.linkedin.com/in/marek-v%C4%8Del%C3%A1k-6176bb1b0">
               <span className="fa-brands fa-linkedin" aria-hidden="true"></span>
               <span className="sr-only">LinkedIn</span>
             </a>
@@ -183,14 +274,14 @@ const Portfolio = () => {
             </a>
           </li>
           <li>
-            <a href="mailto:mail@example.com">
+            <a href="mailto:vcelak.marek@gmail.com">
               <span className="fa-solid fa-envelope" aria-hidden="true"></span>
               <span className="sr-only">Mail</span>
             </a>
           </li>
         </ul>
         <p>
-          <small> &copy; 2021 Marek Vcelak. All rights reserved. </small>
+          <small> &copy; 2023 Marek Vcelak. All rights reserved. </small>
         </p>
       </footer>
     </>
