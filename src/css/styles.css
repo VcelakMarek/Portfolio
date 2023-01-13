@@ -1,7 +1,7 @@
 :root {
   --black: #16152a;
   --dkblue: #0d314b;
-  --plum: #0b062b;
+  --plum: #1b2941;
   --hover-green: #60ffd7;
   --green: #00ffbb;
   --aqua: #86fbfb;
@@ -185,10 +185,13 @@ nav .button:hover {
   padding: 3rem 0;
 }
 .contact-background {
-  background-color: var(--plum);
+  background-color: var(--dkblue);
 }
 .projects-background {
   background-color: var(--dkblue);
+}
+.other-projects-background {
+  background-color: var(--plum);
 }
 .gradient {
   background: linear-gradient(90deg, #00ffbb 25%, rgba(134, 251, 251, 1) 75%);
