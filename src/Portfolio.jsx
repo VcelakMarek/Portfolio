@@ -16,9 +16,6 @@ const Portfolio = () => {
               <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="about.html">About</a>
-            </li>
-            <li>
               <a href="#contact">Contact</a>
             </li>
             <li>
