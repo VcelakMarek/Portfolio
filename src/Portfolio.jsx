@@ -59,10 +59,39 @@ const Portfolio = () => {
 
       <div className="projects-background">
         <section id="projects">
-          <h2>Main projects</h2>
+          <h2>React projects</h2>
+
           <article>
             <div className="text">
-              <h4>Latest Project</h4>
+              <h4>Current Project</h4>
+              <h3>Invoice app</h3>
+              <p className="blackbox">
+                This application is for managing invoices which can be created,
+                edited, deleted or you can change their status. Form use
+                validation when new invoice is created. You can also filter
+                these invoices by status. Any changes are saved into
+                localStorage so you can&apos;t lose your data. This is my
+                current project and I still work on it. You can see source code{" "}
+                <a href="https://github.com/VcelakMarek/Invoice_app">here</a>{" "}
+                and application{" "}
+                <a href="https://vcelakmarek.github.io/Invoice_app/"> here.</a>
+              </p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>React js</li>
+                <li>Typescript</li>
+                <li>Tailwind</li>
+                <li>React final form</li>
+                <li>Yup</li>
+                <li>Vite</li>
+              </ul>
+            </div>
+            <img src="./invoice-app.jpg" alt="Screenshot of Invoice_app." />
+          </article>
+
+          <article className="reverse">
+            <div className="text">
+              <h4>Maps Project</h4>
               <h3>IP Address Tracker</h3>
               <p className="blackbox">
                 This application displays informations about entered IP adress
@@ -72,7 +101,7 @@ const Portfolio = () => {
                 <a href="https://github.com/VcelakMarek/IP_Address_Tracker">
                   here
                 </a>{" "}
-                and aplication{" "}
+                and application{" "}
                 <a href="https://vcelakmarek.github.io/IP_Address_Tracker/">
                   {" "}
                   here.
@@ -94,7 +123,7 @@ const Portfolio = () => {
             />
           </article>
 
-          <article className="reverse">
+          <article>
             <div className="text">
               <h4>Data fetch project</h4>
               <h3>GitHub user search app</h3>
@@ -106,7 +135,7 @@ const Portfolio = () => {
                 <a href="https://github.com/VcelakMarek/GitHub_user_search_app">
                   here
                 </a>{" "}
-                and aplication{" "}
+                and application{" "}
                 <a href="https://vcelakmarek.github.io/GitHub_user_search_app/">
                   {" "}
                   here.
@@ -126,17 +155,16 @@ const Portfolio = () => {
             />
           </article>
 
-          <article>
+          <article className="reverse">
             <div className="text">
               <h4>First React project</h4>
               <h3>Tic Tac Toe</h3>
               <p className="blackbox">
-                This was my first React project and also my most complex project
-                yet. You can choose mark and play with another player or play
-                agains CPU. Aplication counts each player wins. You can see
-                source code{" "}
+                This was my first React project. You can choose mark and play
+                with another player or play agains CPU. Aplication counts each
+                player wins. You can see source code{" "}
                 <a href="https://github.com/VcelakMarek/Tic_Tac_Toe">here</a>{" "}
-                and aplication{" "}
+                and application{" "}
                 <a href="https://vcelakmarek.github.io/Tic_Tac_Toe/"> here.</a>
               </p>
               <h4>Technologies used include:</h4>
@@ -170,7 +198,7 @@ const Portfolio = () => {
                 <a href="https://github.com/VcelakMarek/Password_generator">
                   here
                 </a>{" "}
-                and aplication{" "}
+                and application{" "}
                 <a href="https://vcelakmarek.github.io/Password_generator/">
                   {" "}
                   here.
@@ -196,7 +224,7 @@ const Portfolio = () => {
               <p className="blackbox">
                 This is just normal Calculator. You can see source code{" "}
                 <a href="https://github.com/VcelakMarek/Calculator">here</a> and
-                aplication{" "}
+                application{" "}
                 <a href="https://vcelakmarek.github.io/Calculator//"> here.</a>
               </p>
               <h4>Technologies used include:</h4>
@@ -216,7 +244,7 @@ const Portfolio = () => {
               <p className="blackbox">
                 This was my first CSS project. You can see source code{" "}
                 <a href="https://github.com/VcelakMarek/First_Project">here</a>{" "}
-                and aplication{" "}
+                and application{" "}
                 <a href="https://vcelakmarek.github.io/First_Project/">
                   {" "}
                   here.
