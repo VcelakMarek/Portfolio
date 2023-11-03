@@ -49,9 +49,46 @@ const Portfolio = () => {
             Hi, my name is <span>Marek Vcelak</span>
           </p>
           <h2>React Developer</h2>
-          <p>
-            I am junior frontend developer specializing on React aplications
-          </p>
+          <p>I am frontend developer specializing on React aplications</p>
+        </section>
+      </div>
+
+      <div className="gradient"></div>
+
+      <div className="other-projects-background">
+        <section id="projects">
+          <h2>Next.js project</h2>
+
+          <article>
+            <div className="text">
+              <h4>First Next.js project</h4>
+              <h3>Book Collection</h3>
+              <p className="blackbox">
+                The Book Collection displays books from an external API and
+                includes an admin section (currently without authorization)
+                enabling book editing, deletion, and addition. You can see
+                source code{" "}
+                <a href="https://github.com/VcelakMarek/Book_collection">
+                  here
+                </a>{" "}
+                and application{" "}
+                <a href="https://book-collection-one.vercel.app/"> here.</a>
+              </p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>Next js</li>
+                <li>Typescript</li>
+                <li>Tailwind</li>
+                <li>React final form</li>
+                <li>Axios</li>
+                <li>Vercel</li>
+              </ul>
+            </div>
+            <img
+              src="./book-collection.jpg"
+              alt="Screenshot of Book_Collection."
+            />
+          </article>
         </section>
       </div>
 
