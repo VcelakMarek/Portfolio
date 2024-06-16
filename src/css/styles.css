@@ -129,6 +129,9 @@ nav .button:hover {
   color: var(--white);
   display: block;
 }
+.green-text {
+  color: var(--green);
+}
 #intro h2 {
   font-size: 18px;
   font-weight: 600;
@@ -276,5 +279,8 @@ footer p {
     flex-basis: auto;
     text-align: left;
     margin-right: auto;
+  }
+  #contact {
+    width: 700px;
   }
 }
