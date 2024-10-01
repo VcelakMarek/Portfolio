@@ -63,6 +63,38 @@ const Portfolio = () => {
         <section id="projects">
           <h2>Next.js project</h2>
 
+          <article className="reverse">
+            <div className="text">
+              <h4>Interview project</h4>
+              <h3>To Do App</h3>
+              <p className="blackbox">
+                The To-Do List Application is a responsive web app developed as
+                part of a hiring challenge to demonstrate proficiency in
+                building Next.js applications. Users can manage multiple lists,
+                add, edit, mark tasks as complete or incomplete, and delete
+                items, with priority settings for each task. Data persistence is
+                ensured via MockAPI. The application is optimized for mobile
+                devices and built with Next.js with efficient use of server-side
+                rendering.
+                <br /> You can see source code{" "}
+                <a href="https://github.com/VcelakMarek/To_Do_App">here</a> and
+                application{" "}
+                <a href="https://to-do-app-one-hazel.vercel.app/"> here.</a>
+              </p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>Next.js</li>
+                <li>Typescript</li>
+                <li>Tailwind</li>
+                <li>React final form</li>
+                <li>MockApi</li>
+                <li>Axios</li>
+                <li>Vercel</li>
+              </ul>
+            </div>
+            <img src="./to-do-app.jpg" alt="Screenshot of To_Do_App." />
+          </article>
+
           <article>
             <div className="text">
               <h4>First Next.js project</h4>
