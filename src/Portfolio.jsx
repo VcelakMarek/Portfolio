@@ -137,6 +137,49 @@ const Portfolio = () => {
         <section id="projects">
           <h2>React projects</h2>
 
+          <article>
+            <div className="text">
+              <h4>Interview project</h4>
+              <h3>Users and Animals Manager</h3>
+              <p className="blackbox">
+                The User and Animal Management Web Application is a responsive,
+                interactive app created to demonstrate proficiency in building
+                efficient, scalable applications with React and TypeScript. This
+                project centers around managing user and animal records,
+                allowing users to add, edit, filter, sort, and update data for
+                each entity. Users can also mark individuals as banned.
+                <br /> You can see source code{" "}
+                <a href="https://github.com/VcelakMarek/Users_and_animals">
+                  here
+                </a>{" "}
+                and application{" "}
+                <a href="https://vcelakmarek.github.io/Users_and_animals/">
+                  {" "}
+                  here.
+                </a>
+              </p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>React</li>
+                <li>Typescript</li>
+                <li>Tailwind</li>
+                <li>React Query</li>
+                <li>Final Form</li>
+                <li>Axios</li>
+                <li>Yup</li>
+                <ul>
+                  <li>Lodash</li>
+                  <li>Vite</li>
+                  <li>Prettier</li>
+                </ul>
+              </ul>
+            </div>
+            <img
+              src="./users-and-animals.jpg"
+              alt="Screenshot of Users_and_Animals_Manager."
+            />
+          </article>
+
           <article className="reverse">
             <div className="text">
               <h4>Interview project</h4>
